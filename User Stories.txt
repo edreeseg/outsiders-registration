@@ -1,0 +1,16 @@
+As a user, I would like to...
+
+Log in, and know I am logged in
+Log out, and know I am logged out
+View nav-bar on every page, preferrably collapsible
+View a list of my characters
+Create a new character
+Edit an existing character
+Delete a character
+Export a character sheet as a downloadable file (image?, pdf?)
+Open a character sheet for quick play
+Use online dice roller with reactive sheet to roll checks on the fly easily
+Make a form to create objects (e.g. creating an ability, entering custom races, etc.)
+
+
+"The idea I have is a reactive table style form that has every check in a quick access table that you can roll on with easy modifications and hopefully applying effects from a certain item or racial bonus or whatever automatically"

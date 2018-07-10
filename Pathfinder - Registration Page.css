@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #DDDDDD;
+}
+
+.defaultRowSpacer {
+    margin-top: 5px;
+}
+
+.largeRowSpacer {
+    margin-top: 15px;
+}
+
+#navBar {
+    background-color: #73AB84;
+    height: 50px;
+}
+
+.inputFields {
+    margin-top: 5px;
+}
+
+.explanationText {
+    font-size: 10pt;
+    margin-bottom: 0;
+    margin-top: 0;
+    visibility: hidden;
+    z-index: 1;
+}
+
+.explanationText:hover {
+    visibility: visible;
+}
+
+.headers {
+    text-align: center;
+    margin: 0 0 0 0;
+}
+
+#submitForm {
+    border: 1px solid black;
+    padding-bottom: 20px;
+}
+
+#usernameInput {
+    margin-top: 5px;
+}
+
+.buttons {
+    background-color: #6B6570;
+    border-color: #6B6570;
+    margin-top: 5px;
+}
