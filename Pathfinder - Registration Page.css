@@ -53,3 +53,8 @@ body {
     border-color: #6B6570;
     margin-top: 5px;
 }
+
+#regResponse {
+    text-align: center;
+    margin-top: 10px;
+}
