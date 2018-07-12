@@ -1,39 +1,41 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    <title>PCD - Registration Page</title>
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="pathfinder - registration page.css">
-    </head>
-    <body>
-    <div class="container-fluid">
-        <div class="row">
-            <div id="navBar" class="col-xs-12 col-sm-12 col-md-12">
-                <div class="col-xs-2 col-sm-2 col-md-2">
-                    <h1 class="headers">PCD</h1>
-                </div>
-            </div>
-        </div>
-        <div>
-            <h1 class="headers">Welcome</h1><br/>
-            <h5 class="headers">Please enter your information below.</h3>
-        </div>
-        <div class="row">
-            <div class="col-xs-5 col-sm-5 col-md-5"></div>
-            <form class="defaultRowSpacer col-xs-2 col-sm-2 col-md-2" id="submitForm">
-                <input type="text" name="name" placeholder="Username" class="inputFields col-xs-12 col-sm-12 col-md-12" id="usernameInput" onfocus=""/><br/>
-                <p class="explanationText">How should we refer to you?</p>            
-                <input type="text" name="email" placeholder="Email" class="inputFields col-xs-12 col-sm-12 col-md-12" id="emailInput"/><br/>
-                <p class="explanationText">Where can we reach you?</p>
-                <input type="password" name="password" placeholder="Password" class="inputFields col-xs-12 col-sm-12 col-md-12" id="passwordInput"/><br/>
-                <p class="explanationText">No peeking!</p>
-                <button type="submit" class="buttons" id="submitButton">Submit</button>
-            </form>
-        </div>
-        <div class="test">
-        </div>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="pathfinder - registration page.js"></script>
-    </body>
+<head>
+	<title>PCD - Registration Page</title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="pathfinder - registration page.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div id="navBar" class="col-xs-12 col-sm-12 col-md-12">
+				<div class="col-xs-2 col-sm-2 col-md-2">
+					<h1 class="headers">PCD</h1>
+				</div>
+			</div>
+		</div>
+	<div>
+	<h1 class="headers">Welcome</h1><br/>
+	<h5 class="headers">Please enter your information below.</h5>
+	</div>
+	<div class="row">
+		<div class="col-xs-5 col-sm-5 col-md-5"></div>
+		<form class="defaultRowSpacer col-xs-2 col-sm-2 col-md-2" id="submitForm">
+			<input type="text" name="name" placeholder="Username" class="inputFields col-xs-12 col-sm-12 col-md-12" id="usernameInput" onfocus=""/><br/>
+			<p class="explanationText">How should we refer to you?</p>            
+			<input type="text" name="email" placeholder="Email" class="inputFields col-xs-12 col-sm-12 col-md-12" id="emailInput"/><br/>
+			<p class="explanationText">Where can we reach you?</p>
+			<input type="password" name="password" placeholder="Password" class="inputFields col-xs-12 col-sm-12 col-md-12" id="passwordInput"/><br/>
+			<p class="explanationText">No peeking!</p>
+			<button type="button" class="buttons" id="submitButton" onclick="addUser()">Submit</button>          
+		</form>
+	</div>
+	<div class="row">
+			<div class="col-xs-3 col-sm-3 col-md-3"></div>
+			<div id="regResponse" class="col-xs-6 col-sm-6 col-md-6"></div>
+	</div>
+   </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="pathfinder - registration page.js"></script>
+</body>
 </html>
