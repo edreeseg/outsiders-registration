@@ -53,5 +53,5 @@ function putRequest() {
 function addUser() {
 	"use strict";
 	postRequest();
-	setTimeout(putRequest(), 1000);
+	putRequest();
 }
